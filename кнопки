@@ -1,0 +1,10 @@
+from tkinter import *
+
+root = Tk()
+root.title("Сайт для обучения")
+root.geometry("600x400")
+lbl = Label(root, text="Вы попали на сайт с тестами! Теперь вы можете выбрать любой тест на ваш выбор!")
+lbl.grid(column=0, row=0)
+btn = Button(root, text="Выбрать тест")
+btn.grid(column=1, row=0)
+root.mainloop()
